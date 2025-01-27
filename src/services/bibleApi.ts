@@ -5,8 +5,6 @@ const BASE_URL = 'https://api.scripture.api.bible/v1';
 
 const ALLOWED_BIBLE_IDS = [
   'de4e12af7f28f599-01', // King James (KJV)
-  '95410db44ef800c1-01', // Amplified Bible (AMP)
-  '40072c4a5aba4022-01', // New King James Version (NKJV)
 ];
 
 const handleApiResponse = async <T>(response: Response): Promise<T> => {
